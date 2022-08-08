@@ -27,10 +27,19 @@ const addNumber2 = function (num1, num2) {
 }
 // arrow function 
 const addNumber3 = (num1, num2) => num1 + num2;
-
+// multiline function
+const mathTerm = (num1, num2) => {
+    const sum = num1 + num2;
+    const substraction = num1 - num2;
+    const multiplaction = substraction * sum;
+    const division = multiplaction / 10;
+    return division;
+}
 const result = addNumber(23, 45);
 const result1 = addNumber2(23, 45);
 const result2 = addNumber3(23, 45);
+const result4 = mathTerm(200, 20);
+console.log(result4);
 
 
 
