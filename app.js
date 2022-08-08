@@ -9,11 +9,29 @@ function add(num1, num2 = 0) {
     return sum;
 }
 const addTest = add(45, 23);
-console.log(addTest);
 
 // template string 
 const age = 10;
-const name = 'Abdul Baten';
-const profile = `Hi, There is a ${name} and he is ${age} years old`;
-console.log(profile)
+const hisName = 'Abdul Baten';
+const profile = `Hi, There is a ${hisName} and he is ${age} years old`;
+
+// function declare
+function addNumber(num1, num2) {
+    sum = num1 + num2;
+    return sum;
+}
+// anonymous funtion 
+const addNumber2 = function (num1, num2) {
+    sum = num1 + num2;
+    return sum;
+}
+// arrow function 
+const addNumber3 = (num1, num2) => num1 + num2;
+
+const result = addNumber(23, 45);
+const result1 = addNumber2(23, 45);
+const result2 = addNumber3(23, 45);
+
+
+
 
