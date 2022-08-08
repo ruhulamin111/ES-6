@@ -44,7 +44,3 @@ const result4 = mathTerm(200, 20);
 const marksSheet = [97, 84, 73, 62, 59, 37]
 const marksTest = Math.max(...marksSheet);
 const updateMarks = [29, ...marksSheet, 90, 80];
-console.log(updateMarks);
-
-
-
